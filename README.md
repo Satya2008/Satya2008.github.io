@@ -1,4 +1,4 @@
-# Satya2008.github.io
+![logo](https://github.com/Satya2008/Satya2008.github.io/blob/main/Blue%20Yellow%20Futuristic%20Virtual%20Technology%20Blog%20Banner.png)
 <h1 align="center">Hi 👋, I'm Satyanand Shrivastava</h1>
 <h3 align="center">A passionate Full Stack developer from India</h3>
 <img align = "right" alt="coding" width="400" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
