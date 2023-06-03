@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navbar styles */
+  #nav-menu {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  #nav-menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #nav-menu ul li {
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
