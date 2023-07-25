@@ -14,18 +14,17 @@
     <nav id="nav-menu">
       <h1>Satyanand <span>Shrivastava</span></h1>
       <ul>
-        <li><a href="#home" >Home</a></li>
-        <li><a href="#about" >About</a></li>
-        <li><a href="#skills"  >Skills</a></li>
-        <li><a href="#projects" >Projects</a></li>
-        <li><a href="#contact" >Contact</a></li>
+        <li><a href="#home" class="nav-link home">Home</a></li>
+        <li><a href="#about" class="nav-link about">About</a></li>
+        <li><a href="#skills" class="nav-link skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link projects">Projects</a></li>
+        <li><a href="#contact" class="nav-link contact">Contact</a></li>
         <li><button id="resume-button-1"> <a id="resume-link-1" class="menu-btn"  href="./images/Satyanand-Shrivastava-Resume.pdf" download class="menu-btn download"
-          onclick="window.open('https://drive.google.com/file/d/1h_E_HoqVH8bXeK-l7LM4a55vfWsKSO-l/view?usp=sharing')">Resume</a></button></li>
+           onclick="window.open('https://drive.google.com/file/d/1OtgqA6a6ZNCwXokKHb0qB9fqhbFzS13M/view?usp=drive_link')">Resume</a></button></li>
       </ul>
     </nav>
   </header>
 
-  
   <section id="home" class="nav-link home">
     <div class="home-content">
       <p>Hello, my name is</p>
@@ -38,24 +37,22 @@
   </section>
 
 
-  <section id="about" class="about section" class="nav-link about">
-    <h2>About Me</h2>
-    <div class="about-content"> 
-      <div class="column left">
-        <img class="home-img" src="./images/photo_2022-09-27_19-49-53.jpg" alt="Professional Photo">
-      </div>
-      <div class="column right">
-      <div>
-        <p id="user-detail-intro">A self-motivated, hardworking Back-End Developer with a specialization in Java, Spring
-          Boot, SQL, REST APIs, Hibernate, JDBC, Git/Github, HTML, CSS, and JavaScript. Proficient in designing and
-          developing server-side applications, creating and managing databases, and building responsive websites.
-          Committed to continuous learning and growth to contribute effectively to the organization.</p>
-      </div>
+<section id="about" class="about section">
+  <h2>About Me</h2>
+  <div id="about-content">
+    <div class="home-img">
+      <img class="home-img" src="./images/photo_2022-09-27_19-49-53.jpg" alt="Professional Photo">
+    </div>
+    <div>
+      <p id="user-detail-intro">A self-motivated, hardworking Back-End Developer with a specialization in Java, Spring
+        Boot, SQL, REST APIs, Hibernate, JDBC, Git/Github, HTML, CSS, and JavaScript. Proficient in designing and
+        developing server-side applications, creating and managing databases, and building responsive websites.
+        Committed to continuous learning and growth to contribute effectively to the organization.</p>
     </div>
   </div>
-  </section>
+</section>
 
-  <section id="skills" class="skills-card-name"  class="nav-link skills">
+  <section id="skills">
     <h2>Skills</h2>
     <div class="skills-card">
       <img src="./images/java-ar21.svg" alt="Java" class="skills-card-img">
@@ -103,7 +100,7 @@
 
 
 
-  <section id="projects" class="nav-link projects">
+  <section id="projects">
     <h2>Projects</h2>
     <div id="project_cards">
     <div class="project-card">
@@ -149,9 +146,9 @@
 
 
 
-  <section id="contact"  class="nav-link contact">
+  <section id="contact">
     <h2>Contact</h2>
-    <div  class="contact-content">
+    <div>
       <p id="contact-email">Email: satyanand807@gmail.com</p>
 
       <p id="contact-phone">Phone: +919616692093</p>
