@@ -85,7 +85,9 @@ body {
   #user-detail-name {
     font-size: 36px;
   }
-  
+  #user-detail-intro{
+    color: black;
+  }
   #resume-link-2 {
     display: block;
     width: 150px;
