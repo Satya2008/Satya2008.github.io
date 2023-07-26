@@ -378,3 +378,41 @@ body {
     justify-content: space-around;
   }
   
+
+
+  @media screen and (max-width: 768px) {
+    #nav-menu h1 {
+        margin-right: 150px;
+    }
+    #nav-menu ul {
+        width: 70%;
+    }
+    #home p {
+        display: block;
+        margin: auto;
+        font-size: 20px;
+    }
+    .home-content {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+   
+}
+
+
+@media screen and (max-width: 576px) {
+  #nav-menu h1 {
+      margin-right: 100px;
+  }
+  #nav-menu ul {
+      width: 80%;
+  }
+  #home p {
+      font-size: 18px;
+  }
+  .home-content {
+      width: 90%;
+  }
+
+}
