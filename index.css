@@ -152,6 +152,9 @@ body {
     font-size: 25px;
     margin-bottom: 30px;
   }
+  .home-img{
+    width: 80%;
+  }
   
   .home-content {
     text-align: left; 
