@@ -152,10 +152,7 @@ body {
     font-size: 25px;
     margin-bottom: 30px;
   }
-  .home-img{
-    width: 80%;
-  }
-  
+
   .home-content {
     text-align: left; 
     padding: 50px; 
@@ -188,7 +185,7 @@ body {
   }
   
   /* Media query for larger screens */
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 768px) {
     #home {
       text-align: left;
       align-items: flex-start;
@@ -202,6 +199,10 @@ body {
     .home-content {
       padding: 50px; 
     }
+    .home-img{
+      width: 80%;
+    }
+    
   }
   
 
