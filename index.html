@@ -12,6 +12,7 @@
 <body>
   <header>
     <nav id="nav-menu">
+     
       <h1>Satyanand <span>Shrivastava</span></h1>
       <ul>
         <li><a href="#home" class="nav-link home">Home</a></li>
@@ -19,8 +20,13 @@
         <li><a href="#skills" class="nav-link skills">Skills</a></li>
         <li><a href="#projects" class="nav-link projects">Projects</a></li>
         <li><a href="#contact" class="nav-link contact">Contact</a></li>
-        <li class="nav-link resume"><button id="resume-button-1" class="nav-link resume"> <a href="./images/Satyanand-Shrivastava-Resume.pdf"  id="resume-link-1" class="menu-btn" download class="menu-btn download"   onclick="window.open('https://drive.google.com/file/d/1h_E_HoqVH8bXeK-l7LM4a55vfWsKSO-l/view?usp=sharing')">Resume</a></button></li>
+        <li class="nav-link resume"><button id="resume-button-1" class="nav-link resume"> <a href="./images/Satyanand-Shrivastava-Resume.pdf"  id="resume-link-1" class="menu-btn" download class="menu-btn download"   onclick="window.open('https://drive.google.com/file/d/1VZTpbRszDF0qqQ-NQE6YY-gm1FymYgd9/view?usp=sharing')">Resume</a></button></li>
       </ul>
+      <div id="navbar-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
     </nav>
   </header>
 
@@ -31,7 +37,7 @@
       
       <p>I am a Backend Developer</p>
       <button id="resume-button-2" >
-        <a href="./images/Satyanand-Shrivastava-Resume.pdf" download id="resume-link-2"   onclick="window.open('https://drive.google.com/file/d/1h_E_HoqVH8bXeK-l7LM4a55vfWsKSO-l/view?usp=sharing')">Resume</a>
+        <a href="./images/Satyanand-Shrivastava-Resume.pdf" download id="resume-link-2"   onclick="window.open('https://drive.google.com/file/d/1VZTpbRszDF0qqQ-NQE6YY-gm1FymYgd9/view?usp=sharing')">Resume</a>
       </button>
    
     </div>
@@ -93,15 +99,15 @@
 
   <section id="github">
     <div class="react-activity-calendar"> 
-      Loading the data.
-    </div>
-    <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=satya2008"
+      <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=satya2008"
       alt="GitHub Streak Stats">
     <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=satya2008"
       alt="GitHub Top Languages">
     <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=satya2008"
       alt="GitHub Stats Card">
 
+    </div>
+   
    
 
   </section>
@@ -122,8 +128,17 @@
           Repository</a>
         <a href="https://64c0e6749ac427462a6ca432--spiffy-blancmange-fe80ed.netlify.app/" target="_blank" class="project-deployed-link">View Demo</a>
       </div>
+      <div id="project_cards">
+        <div class="project-card">
+          <img src="./images/blog.png" alt="Project 2" class="project-image">
+          <h3 class="project-title">Blog REST API</h3>
+          <p class="project-description">"This project is a Blog REST API that allows users and administrators to manage and interact with blog-related entities, such as users, posts, categories, and comments. It provides endpoints for various operations including creating, updating, deleting, and retrieving these entities."</p>
+          <a href="https://github.com/Satya2008/blog_api" target="_blank" class="project-github-link">GitHub
+            Repository</a>
+          <a href="https://drive.google.com/file/d/1HOiv7zayn7uKxeLf7uAbYb-ai1_MbgmA/view?usp=sharing" target="_blank" class="project-deployed-link">View Demo</a>
+        </div>
       <div class="project-card">
-        <img src="./images/cms.png" alt="Project 2" class="project-image">
+        <img src="./images/cms.png" alt="Project 3" class="project-image">
         <h3 class="project-title">Crime Information Management System</h3>
         <p class="project-description">"Discover a comprehensive Crime Management System crafted using Java Core. Our
           project offers a sophisticated solution for tracking, managing, and analyzing crime-related data. Experience
@@ -135,7 +150,7 @@
         <a href="https://github.com/Satya2008/handsome-copper-4097" target="_blank" class="project-deployed-link">View Demo</a>
       </div>
       <div class="project-card">
-        <img src="./images/money.png" alt="Project 3" class="project-image">
+        <img src="./images/money.png" alt="Project 4" class="project-image">
         <h3 class="project-title">The Stock Broker System</h3>
         <p class="project-description">"Welcome to our Stock Broker System - a powerful financial platform built with
           Java Core, Advanced Java, Hibernate, and MySQL. Experience seamless stock trading, real-time market data, and
@@ -147,7 +162,7 @@
         <a href="https://github.com/Satya2008/low-head-7683" target="_blank" class="project-deployed-link">View Demo</a>
       </div>
       <div class="project-card">
-        <img src="./images/OLMS.png" alt="Project 4" class="project-image">
+        <img src="./images/OLMS.png" alt="Project 5" class="project-image">
         <h3 class="project-title">Online Learning Management System</h3>
         <p class="project-description">"Embrace the future of education with our Online Learning Management System.
           Developed in Java Core, Advanced Java, Hibernate, and MySQL, it offers a dynamic and interactive learning
@@ -178,7 +193,7 @@
       <a href="./images/Satyanand-Shrivastava-Resume.pdf" target="_blank" class="btn" id="resume-button-2">Resume</a>
     </div>
   </section>
-
+ <script src="index.js"></script>
 
 </body>
 
