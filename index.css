@@ -87,7 +87,7 @@ body {
   #nav-menu ul {
     display: none;
     flex-direction: column;
-    width: 10%;
+    width: 100%;
     position: absolute;
     top: 60px; 
     right: 0; 
@@ -133,29 +133,34 @@ body {
     background-image: url(images/2.png);
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-color: transparent;
     color: #fff;
     text-align: center;
-    padding: 50px;
+    /* padding: 50px; */
     width: 100%;
     height: 650px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center vertically */
-    align-items: center; 
+    justify-content: center;
+    /* align-items: center;  */
+    /* border: 2px solid red; */
   }
   
   #home p {
     font-size: 25px;
     margin-bottom: 30px;
+    /* border: 2px solid red; */
   }
 
   .home-content {
+    /* border: 2px solid red; */
     text-align: left; 
-    padding: 50px; 
+    width: 40%;
+    margin-left: 10%;
+   
   }
   
   #user-detail-name {
@@ -175,7 +180,7 @@ body {
     text-decoration: none;
     font-size: 20px;
     margin: auto;
-    border: 2px solid red;
+    border: 2px solid rgb(8, 216, 8);
     border-radius: 2px;
     padding: 12px;
   }
@@ -183,7 +188,44 @@ body {
   #resume-link-2:hover {
     background-color: black;
   }
-  
+  #resume-button-2{
+ 
+    margin-top: 20px;
+
+
+  }
+/* Auto typing text in home section */
+#auto-typing-text {
+  color: rgb(212, 36, 5);
+  font-weight: bold;
+  font-size: 25px;
+  position: relative;
+}
+
+#auto-typing-text::before {
+  content: ''; /* Empty content to hide the default text */
+  display: none; /* Hide the default content */
+}
+
+#auto-typing-text::after {
+  content: '|';
+  animation: blink 0.7s infinite;
+  color: red;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+
+
   /* Media query for larger screens */
   @media screen and (max-width: 768px) {
     #home {
@@ -198,6 +240,7 @@ body {
   
     .home-content {
       padding: 50px; 
+      width: 80%;
     }
     .home-img{
       width: 80%;
@@ -342,18 +385,16 @@ body {
 
 
 
-
-
 #projects {
   align-items: center;
   padding: 20px;
   background-color: #d3c9c9;
-  text-align: center; 
+  text-align: center;
 }
 
 #project_cards {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -372,14 +413,14 @@ body {
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 20px;
-  width: 100%; 
+  width: 100%;
   max-width: 360px;
 }
 
 .project-image {
   width: 100%;
-  height: 200px; 
-  object-fit: cover; 
+  height: 200px;
+  object-fit: cover;
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -388,21 +429,21 @@ body {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
-  text-align: center; 
+  text-align: center;
 }
 
 .project-description {
   font-size: 16px;
   color: #555;
   margin-bottom: 15px;
-  text-align: center; 
+  text-align: center;
 }
 
 .project-tech-stack {
   font-size: 14px;
   color: #888;
   margin-bottom: 15px;
-  text-align: center; 
+  text-align: center;
 }
 
 .project-github-link,
@@ -421,11 +462,14 @@ body {
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
+  #project_cards {
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+  }
+
   .project-card {
-    max-width: 100%; 
+    max-width: 100%; /* Take full width on smaller screens */
   }
 }
-
 
 
 
