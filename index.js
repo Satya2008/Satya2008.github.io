@@ -13,3 +13,5 @@ var typed = new Typed('#auto-typing-text', {
   backSpeed: 50,
   loop: true
 });
+
+
