@@ -83,7 +83,7 @@ body {
 }
 
 /* Media query for tablets and mobile */
-/* @media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
  
   #nav-menu h1 {
     margin-right: 10px; 
@@ -132,55 +132,7 @@ body {
     padding: 10px 0;
   }
 
-} */
-
-/* Media query for tablets and mobile */
-@media screen and (max-width: 768px) {
-  /* Reduce the margin-right on the h1 to make space for the toggle button */
-  #nav-menu h1 {
-    margin-right: 10px; /* Adjust as needed */
-  }
-
-  /* Show the toggle button */
-  #navbar-toggle {
-    display: flex;
-  }
-
-  /* Hide the navigation list by default */
-  #nav-menu ul {
-    display: none;
-  }
-
-  /* Style the navigation list when it's active (e.g., when the toggle button is clicked) */
-  #nav-menu ul.active {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 100%; /* Adjust as needed */
-    background-color: black;
-    padding: 10px;
-    width: 25%;
-    right: 0;
-  }
-
-  /* Additional styles for list items and links */
-  #nav-list {
-    list-style-type: none;
-    margin-top: auto;
-    padding: 0;
-  }
-
-  #nav-list li {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-
-  .nav-link {
-    padding: 10px 0;
-  }
-}
+} 
 
 
 
