@@ -84,6 +84,9 @@ body {
 
 /* Media query for tablets and mobile */
 @media screen and (max-width: 1130px) {
+  #nav-menu{
+    width: 100%;
+  }
   #nav-menu ul {
     display: none;
     flex-direction: column;
