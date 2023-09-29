@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    /* min-height: 500px; */
+    min-height: 500px;
   }
   
   /* Navbar styles */
@@ -238,6 +238,7 @@ body {
   /* Media query for larger screens */
   @media screen and (max-width: 768px) {
     #home {
+      width: 100%;
       text-align: left;
       align-items: flex-start;
     }
@@ -265,13 +266,13 @@ body {
     
   }
   
-  /* .about-content {
+  .about-content {
     display: flex;
     flex-direction: column; 
     align-items: center; 
     padding: 10px; 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  } */
+  }
   
   .about-content > div > p {
     text-align: justify;
@@ -281,6 +282,9 @@ body {
   
   /* Media query for larger screens */
   @media screen and (min-width: 768px) {
+    #about{
+      width: 100%;
+    }
     .about-content {
       display: flex;
       flex-direction: column; 
@@ -483,8 +487,12 @@ body {
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
+  #projects{
+    width: 100%;
+  }
   #project_cards {
     flex-direction: column; /* Stack cards vertically on smaller screens */
+    
   }
 
   .project-card {
@@ -494,31 +502,10 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
 .react-activity-calendar > img{
   display: block;
   width: 400px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   #contact {
@@ -526,6 +513,7 @@ body {
     padding: 60px 0;
     text-align: center;
     color: #fff;
+    width: 100%;
   }
   
   #contact h2 {
