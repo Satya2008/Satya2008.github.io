@@ -9,6 +9,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     min-height: 500px;
+    width: 100%;
   }
   
   /* Navbar styles */
@@ -236,7 +237,7 @@ body {
 
 
   /* Media query for larger screens */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1168px) {
     #home {
       width: 100%;
       text-align: left;
@@ -281,7 +282,7 @@ body {
   }
   
   /* Media query for larger screens */
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 1168px) {
     #about{
       width: 100%;
     }
@@ -357,7 +358,7 @@ body {
 }
 
 /* Media query for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1168px) {
   #services-card {
     flex-direction: column; 
   }
@@ -486,7 +487,7 @@ body {
 }
 
 /* Media query for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1168px) {
   #projects{
     width: 100%;
   }
