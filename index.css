@@ -449,7 +449,7 @@
   background-color: #d3c9c9;
   text-align: center;
   width: 100%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 #project_cards {
@@ -595,16 +595,22 @@
   width: 50%;
   margin: auto;
 }
-
+#github img{
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
 @media screen and (max-width: 768px) {
   #github{
     /* border: 2px solid rgb(47, 0, 255);
      */
-    width: 50%;
+    width: 80%;
     margin: auto;
   }
   #github img{
     width: 100%;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   }
   .react-activity-calendar{
     width: 100%;
