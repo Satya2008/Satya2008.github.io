@@ -2,21 +2,23 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      /* border: 2px solid blue; */
     }
 
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
       min-height: 500px;
-      width: 100%;
+
     }
+ 
+    
 
     /* Navbar styles */
     #nav-menu {
       position: fixed;
       top: 0;
       left: 0;
-      /* width: 95%; */
       color: #fff;
       background-color: black;
       padding: 10px;
@@ -24,6 +26,7 @@
       justify-content: space-between; /* Adjust this */
       z-index: 9999;
       width: 100%;
+      /* border: 2px solid green; */
     }
 
     #nav-menu h1 {
@@ -35,7 +38,6 @@
     }
 
     #nav-menu ul {
-      width: 100%;
       margin-right: 0;
       list-style-type: none;
       display: flex;
@@ -100,6 +102,7 @@
     justify-content: flex-end;
     z-index: 9999;
     width: 100%;
+  
 
   }
 
@@ -262,10 +265,10 @@
 /* Media query for larger screens */
 @media screen and (max-width: 768px) {
   #home {
-    width: 100%;
+    width: 110%;
     text-align: left;
     align-items: flex-start;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
 
   #home p {
@@ -310,7 +313,7 @@
 /* Media query for larger screens */
 @media screen and (max-width: 1168px) {
   #about {
-    width: 100%;
+    width: 110%;
   }
 
   .about-content {
@@ -446,6 +449,7 @@
   background-color: #d3c9c9;
   text-align: center;
   width: 100%;
+  border: 2px solid black;
 }
 
 #project_cards {
@@ -520,7 +524,7 @@
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   #projects {
-    width: 100%;
+    width: 110%;
   }
 
   #project_cards {
@@ -576,14 +580,36 @@
 #contact a:hover {
   text-decoration: underline;
 }
+@media screen and (max-width: 768px) {
+#contact{
+  /* border: 2px solid red; */
+  width: 110%;
+}
 
+}
 
 #github {
   display: flex;
-  width: 100%;
   justify-content: space-around;
+  /* border: 2px solid rgb(47, 0, 255); */
+  width: 50%;
+  margin: auto;
 }
 
+@media screen and (max-width: 768px) {
+  #github{
+    /* border: 2px solid rgb(47, 0, 255);
+     */
+    width: 50%;
+    margin: auto;
+  }
+  #github img{
+    width: 100%;
+  }
+  .react-activity-calendar{
+    width: 100%;
+  }
+}
 
 /* 
   @media screen and (max-width: 768px) {
